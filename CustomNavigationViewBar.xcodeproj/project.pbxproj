@@ -11,6 +11,7 @@
 		8AE39EAA2737DEB400662047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE39EA92737DEB400662047 /* ContentView.swift */; };
 		8AE39EAC2737DEB500662047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE39EAB2737DEB500662047 /* Assets.xcassets */; };
 		8AE39EAF2737DEB500662047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE39EAE2737DEB500662047 /* Preview Assets.xcassets */; };
+		8AE39EB62737DEE200662047 /* NavigationBarColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE39EB52737DEE200662047 /* NavigationBarColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8AE39EA92737DEB400662047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8AE39EAB2737DEB500662047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AE39EAE2737DEB500662047 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8AE39EB52737DEE200662047 /* NavigationBarColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				8AE39EA92737DEB400662047 /* ContentView.swift */,
 				8AE39EAB2737DEB500662047 /* Assets.xcassets */,
 				8AE39EAD2737DEB500662047 /* Preview Content */,
+				8AE39EB52737DEE200662047 /* NavigationBarColor.swift */,
 			);
 			path = CustomNavigationViewBar;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AE39EAA2737DEB400662047 /* ContentView.swift in Sources */,
+				8AE39EB62737DEE200662047 /* NavigationBarColor.swift in Sources */,
 				8AE39EA82737DEB400662047 /* CustomNavigationViewBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

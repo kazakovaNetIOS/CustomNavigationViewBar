@@ -9,8 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                ForEach(0..<25, id: \.self) { i in
+                    NavigationLink("(\(i)) Hello, world!", destination: EmptyView())
+                }
+            }
+            .navigationBarTitle("Bar Title")
+        }
+        .navigationBarCOlor(backgroundColor: .systemTeal, tintColor: .white)
     }
 }
 
